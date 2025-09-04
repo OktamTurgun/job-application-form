@@ -2,6 +2,15 @@
 
 Responsive va zamonaviy dizaynli job application web form. Toliq funksional va foydalanuvchi-do'st interfeys bilan.
 
+## Live Demo
+
+**[ Demo ko'rish uchun shu yerga bosing!](https://oktamturgun.github.io/job-application-form/)**
+
+[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=for-the-badge&logo=github)](https://oktamturgun.github.io/job-application-form/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Active-blue?style=for-the-badge&logo=github)](https://oktamturgun.github.io/job-application-form/)
+
+---
+
 ## Xususiyatlari
 
 - **Responsive Design** - Barcha qurilmalarda ishlaydi
@@ -27,14 +36,18 @@ job-application/
 └── README.md               # Loyiha haqida ma'lumot
 ```
 
-## Texnologiyalar
+## 🛠️ Texnologiyalar
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 - **HTML5** - Zamonaviy markup
 - **CSS3** - Flexbox, Grid, Animations
 - **Vanilla JavaScript** - Hech qanday framework ishlatilmagan
 - **SVG** - Vektor ikonlar
 
-## Form Bo'limlari
+## 📋 Form Bo'limlari
 
 1. **Shaxsiy Ma'lumotlar**
    - To'liq ism
@@ -142,7 +155,7 @@ Agar biror xato topsangiz, GitHub Issues orqali xabar bering:
 - Browser va OS ma'lumotlari
 - Screenshot (agar mumkin bo'lsa)
 
-## Hissa Qo'shish
+## 🤝 Hissa Qo'shish
 
 1. Fork qiling
 2. Feature branch yarating (`git checkout -b feature/AmazingFeature`)
@@ -154,11 +167,10 @@ Agar biror xato topsangiz, GitHub Issues orqali xabar bering:
 
 MIT License - [LICENSE](LICENSE) faylini ko'ring.
 
-## Muallif:
+## 📧 Aloqa
 
-**OktamTurgun**  
-**GitHub**: [OktamTurgun](https://github.com/OktamTurgun)  
-**Email**: [GitHub profildan ko'ring](https://github.com/OktamTurgun)
+Email: uktamturgunov30@gmail.com
+GitHub: [@OktamTurgun](https://github.com/OktamTurgun)
 
 ## Minnatdorchilik
 
