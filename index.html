@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application</h1>
+        <p class="subtitle">Please complete the form below to apply for a position with us.</p>
+
+        <form id="jobApplicationForm">
+            <!-- Full Name Section -->
+            <div class="form-section">
+                <label>Full Name <span class="required">*</span></label>
+                <div class="name-row">
+                    <div>
+                        <input type="text" placeholder="" name="firstName" required>
+                        <div class="field-label">First Name</div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="" name="middleName">
+                        <div class="field-label">Middle Name</div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="" name="lastName" required>
+                        <div class="field-label">Last Name</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Body Size Section -->
+            <div class="form-section">
+                <label>Body Size <span class="required">*</span></label>
+                <div class="body-size-row">
+                    <div>
+                        <input type="text" placeholder="sm" name="height" required>
+                        <div class="field-label">Height</div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="kg" name="weight" required>
+                        <div class="field-label">Weight</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Birth Date Section -->
+            <div class="form-section">
+                <label>Birth Date</label>
+                <div class="birth-date-row">
+                    <div>
+                        <select name="birthMonth">
+                            <option>Please select a month</option>
+                            <option value="01">January</option>
+                            <option value="02">February</option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        <div class="field-label">Month</div>
+                    </div>
+                    <div>
+                        <select name="birthDay">
+                            <option>Please select a day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <div class="field-label">Day</div>
+                    </div>
+                    <div>
+                        <select name="birthYear">
+                            <option>Please select a year</option>
+                            <option value="2006">2006</option>
+                            <option value="2005">2005</option>
+                            <option value="2004">2004</option>
+                            <option value="2003">2003</option>
+                            <option value="2002">2002</option>
+                            <option value="2001">2001</option>
+                            <option value="2000">2000</option>
+                            <option value="1999">1999</option>
+                            <option value="1998">1998</option>
+                            <option value="1997">1997</option>
+                            <option value="1996">1996</option>
+                            <option value="1995">1995</option>
+                            <option value="1994">1994</option>
+                            <option value="1993">1993</option>
+                            <option value="1992">1992</option>
+                            <option value="1991">1991</option>
+                            <option value="1990">1990</option>
+                            <option value="1989">1989</option>
+                            <option value="1988">1988</option>
+                            <option value="1987">1987</option>
+                            <option value="1986">1986</option>
+                            <option value="1985">1985</option>
+                            <option value="1984">1984</option>
+                            <option value="1983">1983</option>
+                            <option value="1982">1982</option>
+                            <option value="1981">1981</option>
+                            <option value="1980">1980</option>
+                        </select>
+                        <div class="field-label">Year</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Family Status Section -->
+            <div class="form-section">
+                <label>Family Status</label>
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" name="family_status" value="divorced" id="divorced">
+                        <label for="divorced">Divorced</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="family_status" value="married" id="married">
+                        <label for="married">Married</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="family_status" value="single" id="single">
+                        <label for="single">Single</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="family_status" value="other" id="other">
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Current Address Section -->
+            <div class="form-section">
+                <label>Current Address</label>
+                <div class="form-group">
+                    <input type="text" placeholder="" name="streetAddress">
+                    <div class="field-label">Street Address</div>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="" name="streetAddress2">
+                    <div class="field-label">Street Address Line 2</div>
+                </div>
+                <div class="contact-row">
+                    <div>
+                        <input type="text" placeholder="" name="city">
+                        <div class="field-label">City</div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="" name="state">
+                        <div class="field-label">State / Province</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="" name="zipCode">
+                    <div class="field-label">Postal / Zip Code</div>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="form-section">
+                <div class="contact-row">
+                    <div>
+                        <label>Email Address</label>
+                        <input type="email" placeholder="ex: myname@example.com" name="email">
+                        <div class="field-label">example@example.com</div>
+                    </div>
+                    <div>
+                        <label>Phone Number</label>
+                        <div class="phone-group">
+                            <input type="text" placeholder="90" name="areaCode">
+                            <input type="text" placeholder="9000909" name="phoneNumber">
+                        </div>
+                        <div style="display: grid; grid-template-columns: 80px 1fr; gap: 10px; margin-top: 5px;">
+                            <div class="field-label">Area Code</div>
+                            <div class="field-label">Phone Number</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LinkedIn and Experience -->
+            <div class="form-section">
+                <div class="contact-row">
+                    <div class="form-group">
+                        <label>LinkedIn</label>
+                        <input type="text" placeholder="" name="linkedin">
+                    </div>
+                    <div class="form-group">
+                        <label>Experience</label>
+                        <div class="experience-input">
+                            <input type="text" placeholder="" name="experience" id="experienceInput" style="padding-right: 80px;">
+                            <div class="experience-controls">
+                                <button type="button" class="btn-control" id="experienceMinus">−</button>
+                                <button type="button" class="btn-control" id="experiencePlus">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Position and How did you hear -->
+            <div class="form-section">
+                <div class="selection-row">
+                    <div class="form-group">
+                        <label>Position Applied</label>
+                        <select name="position">
+                            <option>Please Select</option>
+                            <option value="software-developer">Software Developer</option>
+                            <option value="frontend-developer">Frontend Developer</option>
+                            <option value="backend-developer">Backend Developer</option>
+                            <option value="fullstack-developer">Full Stack Developer</option>
+                            <option value="ui-ux-designer">UI/UX Designer</option>
+                            <option value="project-manager">Project Manager</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>How did you hear about us</label>
+                        <select name="hearAbout">
+                            <option>Please Select</option>
+                            <option value="job-board">Job Board</option>
+                            <option value="social-media">Social Media</option>
+                            <option value="company-website">Company Website</option>
+                            <option value="referral">Referral</option>
+                            <option value="recruitment-agency">Recruitment Agency</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Available Start Date -->
+            <div class="form-section">
+                <label>Available Start Date</label>
+                <input type="date" name="startDate" value="2025-08-31">
+            </div>
+
+            <!-- Computer Skills -->
+            <div class="form-section">
+                <label>Computer Skills</label>
+                <table class="skills-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Beginner</th>
+                            <th>Elementary</th>
+                            <th>Advanced</th>
+                            <th>Expert</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Excel</td>
+                            <td><input type="radio" name="excel" value="beginner" class="skills-radio"></td>
+                            <td><input type="radio" name="excel" value="elementary" class="skills-radio"></td>
+                            <td><input type="radio" name="excel" value="advanced" class="skills-radio"></td>
+                            <td><input type="radio" name="excel" value="expert" class="skills-radio"></td>
+                        </tr>
+                        <tr>
+                            <td>Word</td>
+                            <td><input type="radio" name="word" value="beginner" class="skills-radio"></td>
+                            <td><input type="radio" name="word" value="elementary" class="skills-radio"></td>
+                            <td><input type="radio" name="word" value="advanced" class="skills-radio"></td>
+                            <td><input type="radio" name="word" value="expert" class="skills-radio"></td>
+                        </tr>
+                        <tr>
+                            <td>1C</td>
+                            <td><input type="radio" name="1c" value="beginner" class="skills-radio"></td>
+                            <td><input type="radio" name="1c" value="elementary" class="skills-radio"></td>
+                            <td><input type="radio" name="1c" value="advanced" class="skills-radio"></td>
+                            <td><input type="radio" name="1c" value="expert" class="skills-radio"></td>
+                        </tr>
+                        <tr>
+                            <td>Programming Language</td>
+                            <td><input type="radio" name="programming" value="beginner" class="skills-radio"></td>
+                            <td><input type="radio" name="programming" value="elementary" class="skills-radio"></td>
+                            <td><input type="radio" name="programming" value="advanced" class="skills-radio"></td>
+                            <td><input type="radio" name="programming" value="expert" class="skills-radio"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- English Language Ability -->
+            <div class="form-section">
+                <label>Ability knowing English Language</label>
+                <div class="rating-group">
+                    <div class="rating-numbers" id="englishRating">
+                        <div class="rating-number" data-rating="1">1</div>
+                        <div class="rating-number" data-rating="2">2</div>
+                        <div class="rating-number" data-rating="3">3</div>
+                        <div class="rating-number" data-rating="4">4</div>
+                        <div class="rating-number" data-rating="5">5</div>
+                    </div>
+                </div>
+                <div class="rating-labels">
+                    <span>Worst</span>
+                    <span>Best</span>
+                </div>
+                <input type="hidden" name="englishLevel" id="englishLevelInput">
+            </div>
+
+            <!-- Document Upload -->
+            <div class="form-section">
+                <label>Applicant Document(Diploma, Certificate)</label>
+                <div class="upload-area" onclick="document.getElementById('documents').click()">
+                    <img src="assets/icons/upload.svg" class="upload-icon" alt="Upload">
+                    <div class="upload-title">Browse Files</div>
+                    <div class="upload-subtitle">Drag and drop files here</div>
+                </div>
+                <input type="file" id="documents" name="documents" style="display: none;" multiple accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+            </div>
+
+            <!-- Resume Upload -->
+            <div class="form-section">
+                <label>Upload Your Resume</label>
+                <div class="upload-area" onclick="document.getElementById('resume').click()">
+                    <img src="assets/icons/upload.svg" class="upload-icon" alt="Upload">
+                    <div class="upload-title">Browse Files</div>
+                    <div class="upload-subtitle">Drag and drop files here</div>
+                </div>
+                <input type="file" id="resume" name="resume" style="display: none;" accept=".pdf,.doc,.docx">
+            </div>
+
+            <!-- Cover Letter -->
+            <div class="form-section">
+                <label>Cover Letter</label>
+                <textarea placeholder="Please write your cover letter here..." name="coverLetter"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Apply</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
