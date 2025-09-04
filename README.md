@@ -2,7 +2,7 @@
 
 Responsive va zamonaviy dizaynli job application web form. Toliq funksional va foydalanuvchi-do'st interfeys bilan.
 
-## 🚀 Xususiyatlari
+## Xususiyatlari
 
 - **Responsive Design** - Barcha qurilmalarda ishlaydi
 - **Real-time Validation** - Ma'lumotlar kiritilganda tekshiradi
@@ -12,7 +12,7 @@ Responsive va zamonaviy dizaynli job application web form. Toliq funksional va f
 - **Drag & Drop** - Fayllarni sudrab tashlash orqali yuklash
 - **Keyboard Navigation** - Klaviatura orqali boshqarish
 
-## 📁 Fayl Tuzilmasi
+## Fayl Tuzilmasi
 
 ```
 job-application/
@@ -27,14 +27,14 @@ job-application/
 └── README.md               # Loyiha haqida ma'lumot
 ```
 
-## 🛠️ Texnologiyalar
+## Texnologiyalar
 
 - **HTML5** - Zamonaviy markup
 - **CSS3** - Flexbox, Grid, Animations
 - **Vanilla JavaScript** - Hech qanday framework ishlatilmagan
 - **SVG** - Vektor ikonlar
 
-## 📋 Form Bo'limlari
+## Form Bo'limlari
 
 1. **Shaxsiy Ma'lumotlar**
    - To'liq ism
@@ -61,11 +61,11 @@ job-application/
    - Diplom/sertifikat
    - Motivatsion xat
 
-## 🚦 Ishga Tushirish
+## Ishga Tushirish
 
 1. **Repositoryni clone qiling:**
    ```bash
-   git clone https://github.com/yourusername/job-application-form.git
+   git clone https://github.com/OktamTurgun/job-application-form.git
    ```
 
 2. **Papkaga kiring:**
@@ -84,7 +84,7 @@ job-application/
 - **Tablet**: 768px va past
 - **Mobile**: 480px va past
 
-## ✨ Xususiyatlar
+## Xususiyatlar
 
 ### Real-time Validation
 - Email format tekshirish
@@ -106,7 +106,7 @@ job-application/
 - Hover va click effektlari
 - Klaviatura orqali boshqarish
 
-## 🎨 Dizayn Xususiyatlari
+## Dizayn Xususiyatlari
 
 - **Modern UI** - Zamonaviy va chiroyli dizayn
 - **Smooth Animations** - Silliq o'tish effektlari
@@ -134,7 +134,7 @@ const MAX_EXPERIENCE = 50;
 const AUTO_SAVE_DELAY = 1000;
 ```
 
-## 🐛 Bug Report
+## Bug Report
 
 Agar biror xato topsangiz, GitHub Issues orqali xabar bering:
 - Bug tavsifi
@@ -142,7 +142,7 @@ Agar biror xato topsangiz, GitHub Issues orqali xabar bering:
 - Browser va OS ma'lumotlari
 - Screenshot (agar mumkin bo'lsa)
 
-## 🤝 Hissa Qo'shish
+## Hissa Qo'shish
 
 1. Fork qiling
 2. Feature branch yarating (`git checkout -b feature/AmazingFeature`)
@@ -154,7 +154,7 @@ Agar biror xato topsangiz, GitHub Issues orqali xabar bering:
 
 MIT License - [LICENSE](LICENSE) faylini ko'ring.
 
-## 👨‍💻 Muallif
+## Muallif:
 
 **OktamTurgun**  
 **GitHub**: [OktamTurgun](https://github.com/OktamTurgun)  
